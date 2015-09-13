@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="pearl" extends="struts-default">
+	   <action name="movie_*" class="cn.jk.pearl.action.MovieAction" method="{1}">
+	   		<result name="showMovie">/movieandfile.jsp</result>
+	   </action>
+	   <action name="verifyhandler" class="checkCodeAction" method="checkcode">
+	   </action>
+	   <action name="register_*" class="userAction" method="{1}">
+	   		<result name="login" type="stream">
+				<param name="contentType">text/html;charset=UTF-8</param>
+				<param name="inputName">inputStream</param>
+			</result>
+	   </action>
+	</package>
+</struts>

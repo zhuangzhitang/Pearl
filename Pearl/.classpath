@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/c3p0"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-Core"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-Persistence-Core"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-AOP"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mysql"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts2.3"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/struts2-spring-plugin-2.1.6"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Spring3-Web"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Json"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/HttpClient"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JFreeChart"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="Resource"/>
+	<classpathentry kind="src" path="Properties"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="melibrary.com.genuitec.eclipse.j2eedt.core.MYECLIPSE_JAVAEE_5_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/hibernate3.6"/>
+	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.0.4-bin.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="WebRoot/WEB-INF/classes"/>
+</classpath>

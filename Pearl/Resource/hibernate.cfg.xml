@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+          "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+          "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+<session-factory>
+	<property name="dialect">
+		org.hibernate.dialect.MySQLDialect
+	</property>
+	<property name="show_sql">true</property>
+	<property name="myeclipse.connection.profile">MySQL</property>
+	<mapping resource="cn/jk/pearl/pojo/DataCollection.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Disease.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/EmployInformation.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Expert.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/ExpertApplication.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/ExpertEvaluate.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Farmer.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/FileComment.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/FileDocument.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Movie.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/MovieComment.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/NewsCategory.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/NewsTemporary.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Parameter.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/PhotoGallery.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Post.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/PostCollected.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Reply.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/SecondReply.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/SuperUser.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Symptom.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/SymptomGroup.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/SymptomPower.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/SymptomsMap.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/SystemMessage.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/User.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/WarnMessage.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/News.hbm.xml" />
+	<mapping resource="cn/jk/pearl/pojo/Photo.hbm.xml" />
+
+
+</session-factory>
+</hibernate-configuration>

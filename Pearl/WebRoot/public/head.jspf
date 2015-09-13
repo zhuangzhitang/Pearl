@@ -1,0 +1,10 @@
+<%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
+<!-- 此页面用来设置公共的头部信息 -->
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
+
+<title>My JSP 'index.jsp' starting page</title>
+<!--<link rel="stylesheet" type="text/css" href="styles.css">-->
+<!-- <script type="text/javascript"></script> -->
+
+<c:set var="pearl" value="${pageContext.request.contextPath}" />
